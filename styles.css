@@ -62,6 +62,9 @@ h2 {
     border-radius: 5px;
     color: #fff;
 }
+.skills-list li:hover{
+    transform: translatey(5px);
+}
 
 .project {
     background: #f4f4f4;
@@ -97,7 +100,9 @@ form input, form textarea {
     border-radius: 5px;
 }
 
-form button {
+
+
+#check{
     padding: 0.75rem;
     border: none;
     background: #f967b7;
@@ -107,7 +112,7 @@ form button {
     transition: background 0.3s;
 }
 
-form button:hover {
+#check:hover {
     background: #fa37a2;
 }
 
